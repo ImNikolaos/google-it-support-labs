@@ -1,0 +1,17 @@
+Exercise: Change File Permissions in Linux
+
+Objective:
+Restrict access to a sensitive file by modifying its permissions.
+
+Steps:
+1. Create a test file:
+   touch confidential.txt
+
+2. Change permissions:
+   chmod 600 confidential.txt
+
+3. Verify:
+   ls -l confidential.txt
+
+Result:
+Only the owner has read/write access. Others are denied.
